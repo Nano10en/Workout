@@ -1,17 +1,23 @@
-# Workout (Vue 3)
+# Workout (Vue 3 + Webpack)
 
-A small Vue 3 SPA/website: Home and Pricing pages via Vue Router, component-based structure (courses/benefits/video), responsive layout, SCSS styling, and Webpack build.
+Small Vue 3 SPA with Vue Router (Home/Pricing), reusable components, responsive layout, and SCSS styling.
 
 ## Features
-- Vue 3 + components
-- Navigation (Vue Router): Home / Pricing
+- Vue 3 components
+- Vue Router: Home / Pricing
 - Responsive UI
-- SCSS styles
+- SCSS
 - Webpack build
 
-## Installation & Run
+## Screenshots
+- `docs/main.png`
+- `docs/pricing.png`
+- `docs/popular_trains.png`
+- `docs/trainers.png`
 
-### 1) Clone
+## Run locally
 ```bash
 git clone https://github.com/Nano10en/Workout.git
 cd Workout
+npm install
+npm run dev
